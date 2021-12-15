@@ -6,20 +6,24 @@ IOS/安卓: 今日头条极速版
 第3步: 获得专属红包奖励, 当天即可提现到支付宝
 （此脚本来自随TG电报频道，非原创，在此标明）
 
-老用户每天几毛，新用户可能收益高点
-普通版定时： 1-59/15 6-23 * * *
-激进版定时： 1-59/5 * * * *
-多用户跑的时间会久一点，自己看着改定时吧
-
 青龙填写变量：
 这个变量不是填写在环境变量，而是填写在配置文件里，点击青龙面板侧边栏，配置文件，然后在末尾添加变量
 UA值：export jrttjsbUA=‘User-Agent’
 cookie值：export jrttjsbHeader=‘cookie’@‘cookie’，将你刚才获取的cookie填到引号当中，多账号用@隔开。
 
+添加任务：
+ql raw https://github.com/jasonhe2014/jbww/blob/main/jrjsb.js
+老用户每天几毛，新用户可能收益高点
+普通版定时： 1-59/15 6-23 * * *
+激进版定时： 1-59/5 * * * *
+多用户跑的时间会久一点，自己看着改定时吧
+
 #每个人的域名不同，抓包填写关键词
 hostname = i.snssdk.com //安卓版
 hostname = api3-normal-lq.toutiaoapi.com //IOS版
 
+
+问题讨论tg电报：https://t.me/yutangmoyu
 */
 
 const jsname = '今日头条极速版'
